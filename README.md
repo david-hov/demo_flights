@@ -1,5 +1,7 @@
 # Demo flights
 
+https://github.com/user-attachments/assets/ba2772cb-1edb-4c46-b1e1-edf5c12ecd65
+
 ## Flights Management Tool
 
 **Demo flights** is an flights management tool built with **React-Admin** and **TypeScript**. It allows users to view, search, filter flights data in an efficient and user-friendly interface.
@@ -16,7 +18,8 @@
 
 The project utilizes several open-source technologies to provide a rich user experience:
 
-- [React-Admin](https://marmelab.com/react-admin/Demos.html): A powerful tool for building CMS applications.
+- [React-Admin](https://marmelab.com/react-admin/Demos.html): A powerful tool for building CMS
+ applications.
 - [TypeScript](https://www.typescriptlang.org/): A statically typed language for better maintainability.
 - [React Hook Form](https://react-hook-form.com/): For handling forms with ease.
 - [SCSS](https://sass-lang.com/): For robust styling.
