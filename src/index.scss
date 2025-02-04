@@ -1,0 +1,224 @@
+.RaList-actions {
+    margin-bottom: 15px;
+
+    .filter-list {
+        .MuiList-root {
+            display  : flex;
+            gap      : 15px;
+            flex-wrap: wrap;
+
+            .MuiChip-label {
+                font-weight: bolder;
+            }
+
+            .Mui-selected {
+                border-radius   : 25px;
+                background-color: #00cc83;
+
+                svg {
+                    display: none;
+                }
+            }
+
+            .MuiListItem-root {
+                .MuiButtonBase-root {
+                    padding      : 0;
+                    border-radius: 25px;
+                }
+            }
+        }
+    }
+}
+
+.MuiPaper-root {
+    background-color: #201f24 !important;
+    background-image: unset !important;
+}
+
+.favorites {
+    margin-top: 10px !important;
+
+    .MuiPaper-root {
+        box-shadow: unset !important;
+    }
+
+    .card-item {
+        width              : 100%;
+        height             : 150px;
+        border-radius      : 16px;
+        background-position: center;
+        background-size    : cover;
+    }
+}
+
+.tools-section {
+    .tools-item {
+        cursor          : pointer;
+        background-color: rgba(138, 180, 248, 0.12) !important;
+        border          : 1px solid rgba(138, 180, 248, 0.6);
+        border-radius   : 16px;
+        min-height      : 180px;
+        padding         : 24px;
+
+        .MuiCardContent-root {
+            height: 100%;
+        }
+    }
+
+    .content-item {
+        box-shadow: unset !important;
+    }
+}
+
+.popular-item {
+    width          : 100%;
+    height         : 100px;
+    border-radius  : 8px;
+    background-size: auto;
+    display        : flex;
+    justify-content: flex-start;
+    align-items    : flex-end;
+    position       : relative;
+
+    div {
+        width        : 100%;
+        height       : 100%;
+        border-radius: 8px;
+    }
+
+    p {
+        font-size     : 16px;
+        font-weight   : 500;
+        letter-spacing: 0.1px;
+        line-height   : 20px;
+        padding       : 8px;
+        margin        : 0;
+        position      : absolute;
+        z-index       : 9;
+    }
+
+    &::after {
+        background   : linear-gradient(0deg, rgba(0, 0, 0, .5), transparent) no-repeat;
+        border-radius: 8px;
+        content      : "";
+        inset        : 0;
+        position     : absolute;
+    }
+}
+
+.ra-input-date,
+.ra-input-startDate,
+.ra-input-endDate {
+    width: 100%;
+
+    .MuiInputBase-root {
+        height: 100%;
+    }
+}
+
+.MuiAccordion-rounded {
+    box-shadow: unset !important;
+}
+
+form {
+    border-radius: 15px;
+    position        : relative;
+    padding         : 8px 16px 48px;
+    border          : unset;
+    margin-top      : 45px;
+    box-shadow      : 0 1px 3px 0 rgba(0, 0, 0, .3), 0 4px 8px 3px rgba(0, 0, 0, .15);
+    background-color: #36363a73;
+
+    .MuiToolbar-root {
+        left: 0;
+        bottom         : -33px;
+        width          : 100%;
+        position       : absolute;
+        display        : flex;
+        justify-content: center;
+
+        button {
+            background-color: #677dc9 !important;
+            color           : white !important;
+            border-radius   : 24px;
+            height          : 40px;
+
+            text-transform: capitalize;
+        }
+    }
+
+    .option-box {
+        .MuiSelect-select {
+            padding-top: 10px !important;
+        }
+    }
+}
+
+.rsm-svg  {
+    path {
+        outline: none;
+    }
+}
+
+.MuiStack-root {
+    gap: 45px;
+}
+
+.MuiFormHelperText-root {
+    display: none;
+}
+
+.modal-content {
+    padding-bottom: 0;
+
+    .MuiFormControl-root {
+        margin-bottom: 15px;
+    }
+
+    .options {
+        cursor         : pointer;
+        padding        : 15px;
+        border-radius  : 5px;
+        flex           : 1;
+        justify-content: center;
+        display        : flex;
+        flex-direction : column;
+    }
+}
+
+.RaDatagrid-expandedPanel {
+    .MuiTableCell-body {
+        background-color: #081636 !important;
+    }
+}
+
+.show-page {
+    .MuiToolbar-root {
+        display: none;
+    }
+
+    .RaShow-card {
+        background-color: transparent !important;
+    }
+}
+
+.container-info {
+    margin-top   : 10px !important;
+    margin-bottom: 10px;
+
+    .MuiGrid-item {
+        padding-top: 0;
+    }
+}
+
+.MuiTable-root {
+    .MuiTableHead-root {
+        th {
+            background-color: #1b2132;
+        }
+    }
+
+    tr {
+        background-color: #171e2f;
+    }
+}

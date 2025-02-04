@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  react-app:
+    image: influencers:latest
+    container_name: influencer
+    ports:
+      - "80:80"
+    restart: always
