@@ -1,5 +1,7 @@
 # Demo flights
 
+http://145.223.96.63/ - Demo host
+
 https://github.com/user-attachments/assets/ba2772cb-1edb-4c46-b1e1-edf5c12ecd65
 
 ## Flights Management Tool
